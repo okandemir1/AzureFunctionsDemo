@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "ServiceBusConnectionString": "*****"
+  },
+  //iki projeyi çalıştırırken portlar aynı olduğu için çalışmıyordu bunu eklemek sorunumu çözdü
+  "Host": {
+    "LocalHttpPort": 7073
+  }
+}
